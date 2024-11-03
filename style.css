@@ -1,0 +1,344 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.header-section{
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-right: 10px;
+  
+
+  
+  
+
+}
+
+.header-section, .nav-bar, a, li{
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  
+
+  
+
+}
+
+ .logo{
+  
+
+
+ }
+
+
+ #home{
+  width: 100%;
+  border: 1px solid black;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .h1{
+  color: #ff0000;
+  font-weight: bold;
+  font-family: Georgia;
+ }
+
+span{
+  color:grey;
+  margin-right: 10px;
+}
+button{
+  margin-top: 50px;
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: red;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: bold;
+  border: none;
+  margin-left: 50px;
+
+
+}
+
+ #about{
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+.zed{
+ /* display: grid; */
+ /* grid-template-columns:1fr 500px auto; */
+ /* grid-template-rows:300px 250px 250px; */
+ display: inline-block;
+ 
+}
+
+
+
+ .me{
+  color: #000;
+  grid-row: 1/2;
+  grid-column: 1/span2;
+  
+  
+
+  
+ }
+ .passionate{
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  grid-column:2/2 ;
+  grid-row: 2/2;
+  margin-top: 100px;
+  
+  
+  
+  
+  
+  
+ }
+
+ .download{
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 3px;
+  grid-column:3/3;
+  grid-row:3/3;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  margin-right: 15rem;
+  
+
+
+  
+
+
+  
+ }
+
+  img{
+  width: 250px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  margin-left: 350px;
+ }
+
+ 
+
+
+ #skill{
+  
+  width: 100%;
+  min-height: 500px;
+  
+  flex-shrink: 1%;
+  border: 1px solid black;
+  display: grid;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 260px 260px;
+  grid-template-rows: 100px  100px;
+  
+  gap: 20px;
+  flex-grow: 2;
+
+ }
+
+
+ .k{
+  display:grid;
+  grid-row:1/1;
+  grid-column:1/1;
+  margin-left: 15rem;
+  
+ }
+
+ .ex{
+width: 15rem;
+/* margin: 0; */
+flex-direction: column;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 20px;
+margin-top: 20rem;
+padding-left: 7px;
+border: 1px solid grey;
+
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+grid-row:1/span 1 ;
+grid-column:1/1 ;
+
+
+
+
+ }
+
+
+ .jav{
+  
+  width: 15rem;
+  padding-right: 7px;
+  border: 1px solid grey;
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  height: 100px;
+  margin-top: 20rem;
+  /* margin: 0; */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+grid-row:2/  1;
+grid-column:2/ 2;
+  
+ }
+
+.re{
+  width: 15rem;
+  margin-top: 20rem;
+  /* margin: 0; */
+border: 1px solid grey;
+border-radius: 5px;
+display:flex;
+flex-direction: column;
+/* padding: 20px; */
+justify-content: center;
+padding-left: 10px;
+padding-right: 10px;
+align-items: center;
+grid-row:2/2 ;
+grid-column:1/ 2 ;
+margin-right: 100%;
+
+
+
+  
+
+}
+
+.de{
+  width: 15rem;
+  margin-top: 20rem;
+  
+  flex-direction: column;
+  /* margin: 0; */
+border: 1px solid grey;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+grid-row:2/2 ;
+grid-column:2/2 ;
+flex-grow: 10px;
+/* display: inline; */
+/* padding: 20px; */
+
+
+}
+
+
+#project{
+  width: 100%;
+  
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  min-height: 500px;
+  align-items: center;
+  gap: 20px;
+
+  
+  
+
+
+
+
+
+}
+
+
+.project1{
+width: 20rem;
+
+border: 1px solid grey;
+
+
+}
+
+.project2{
+  width: 20rem;
+  
+  border: 1px solid grey;
+}
+
+.project3{
+  width: 20rem;
+  
+ border: 1px solid grey;
+
+}
+
+.image1{
+  border-radius: 0;
+  
+  
+  
+
+
+}
+
+.image2{
+  border-radius: 0;
+  
+  
+}
+
+
+.image3{
+  border-radius: 0;
+  
+  
+}
+
+
+#contact{
+  width: 100%;
+  border: 1px solid black;
+  height: 50vh;
+
+}
+
+
+
+
+
